@@ -18,5 +18,5 @@ document.getElementById("registration").addEventListener('submit',function(e){
     users.push(newUser);
     localStorage.setItem("users", JSON.stringify(users));
     alert("registered successfully");
-    window.location.href="login.html";
+    window.location.href="index.html";
 });
